@@ -13,21 +13,11 @@
 		7CABBFEC1A15870600875E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CABBFEA1A15870600875E97 /* Main.storyboard */; };
 		7CABBFEE1A15870600875E97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CABBFED1A15870600875E97 /* Images.xcassets */; };
 		7CABBFF11A15870600875E97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CABBFEF1A15870600875E97 /* LaunchScreen.xib */; };
-		7CABBFFD1A15870700875E97 /* _000DevQuestionsHow2QEUNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABBFFC1A15870700875E97 /* _000DevQuestionsHow2QEUNTests.swift */; };
 		7CABC0081A15876F00875E97 /* JNYJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABC0071A15876F00875E97 /* JNYJ.swift */; };
 		7CABC00E1A1587F500875E97 /* Category4Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CABC00D1A1587F500875E97 /* Category4Testing.m */; };
 		7CABC0111A1590D100875E97 /* ImportSwiftClass2OBJC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CABC0101A1590D100875E97 /* ImportSwiftClass2OBJC.m */; };
+		7CABC0161A15A52800875E97 /* BlockTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CABC0151A15A52800875E97 /* BlockTesting.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7CABBFF71A15870700875E97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CABBFD71A15870600875E97 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7CABBFDE1A15870600875E97;
-			remoteInfo = 0000DevQuestionsHow2QEUN;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7CABBFDF1A15870600875E97 /* DevQuestionsHow2QEUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevQuestionsHow2QEUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +28,6 @@
 		7CABBFEB1A15870600875E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CABBFED1A15870600875E97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CABBFF01A15870600875E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7CABBFF61A15870700875E97 /* DevQuestionsHow2QEUNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevQuestionsHow2QEUNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABBFFB1A15870700875E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CABBFFC1A15870700875E97 /* _000DevQuestionsHow2QEUNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _000DevQuestionsHow2QEUNTests.swift; sourceTree = "<group>"; };
 		7CABC0071A15876F00875E97 /* JNYJ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JNYJ.swift; sourceTree = "<group>"; };
@@ -47,17 +36,12 @@
 		7CABC00D1A1587F500875E97 /* Category4Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category4Testing.m; sourceTree = "<group>"; };
 		7CABC00F1A1590D100875E97 /* ImportSwiftClass2OBJC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportSwiftClass2OBJC.h; sourceTree = "<group>"; };
 		7CABC0101A1590D100875E97 /* ImportSwiftClass2OBJC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportSwiftClass2OBJC.m; sourceTree = "<group>"; };
+		7CABC0141A15A52800875E97 /* BlockTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTesting.h; sourceTree = "<group>"; };
+		7CABC0151A15A52800875E97 /* BlockTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTesting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CABBFDC1A15870600875E97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CABBFF31A15870700875E97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				7CABBFDF1A15870600875E97 /* DevQuestionsHow2QEUN.app */,
-				7CABBFF61A15870700875E97 /* DevQuestionsHow2QEUNTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +116,8 @@
 				7CABC00D1A1587F500875E97 /* Category4Testing.m */,
 				7CABC00F1A1590D100875E97 /* ImportSwiftClass2OBJC.h */,
 				7CABC0101A1590D100875E97 /* ImportSwiftClass2OBJC.m */,
+				7CABC0141A15A52800875E97 /* BlockTesting.h */,
+				7CABC0151A15A52800875E97 /* BlockTesting.m */,
 				7CABC00B1A1587F500875E97 /* 0000DevQuestionsHow2QEUN-Bridging-Header.h */,
 			);
 			name = Questions;
@@ -158,24 +143,6 @@
 			productReference = 7CABBFDF1A15870600875E97 /* DevQuestionsHow2QEUN.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7CABBFF51A15870700875E97 /* DevQuestionsHow2QEUNTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CABC0031A15870700875E97 /* Build configuration list for PBXNativeTarget "DevQuestionsHow2QEUNTests" */;
-			buildPhases = (
-				7CABBFF21A15870700875E97 /* Sources */,
-				7CABBFF31A15870700875E97 /* Frameworks */,
-				7CABBFF41A15870700875E97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7CABBFF81A15870700875E97 /* PBXTargetDependency */,
-			);
-			name = DevQuestionsHow2QEUNTests;
-			productName = 0000DevQuestionsHow2QEUNTests;
-			productReference = 7CABBFF61A15870700875E97 /* DevQuestionsHow2QEUNTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,10 +154,6 @@
 				TargetAttributes = {
 					7CABBFDE1A15870600875E97 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					7CABBFF51A15870700875E97 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 7CABBFDE1A15870600875E97;
 					};
 				};
 			};
@@ -208,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				7CABBFDE1A15870600875E97 /* DevQuestionsHow2QEUN */,
-				7CABBFF51A15870700875E97 /* DevQuestionsHow2QEUNTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,13 +183,6 @@
 				7CABBFEC1A15870600875E97 /* Main.storyboard in Resources */,
 				7CABBFF11A15870600875E97 /* LaunchScreen.xib in Resources */,
 				7CABBFEE1A15870600875E97 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CABBFF41A15870700875E97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,26 +199,11 @@
 				7CABBFE51A15870600875E97 /* AppDelegate.swift in Sources */,
 				7CABC00E1A1587F500875E97 /* Category4Testing.m in Sources */,
 				7CABBFE71A15870600875E97 /* FirstViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CABBFF21A15870700875E97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CABBFFD1A15870700875E97 /* _000DevQuestionsHow2QEUNTests.swift in Sources */,
+				7CABC0161A15A52800875E97 /* BlockTesting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7CABBFF81A15870700875E97 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7CABBFDE1A15870600875E97 /* DevQuestionsHow2QEUN */;
-			targetProxy = 7CABBFF71A15870700875E97 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7CABBFEA1A15870600875E97 /* Main.storyboard */ = {
@@ -368,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = 0000DevQuestionsHow2QEUN/Info.plist;
@@ -382,46 +323,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = 0000DevQuestionsHow2QEUN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = DevQuestionsHow2QEUN;
 				SWIFT_OBJC_BRIDGING_HEADER = "0000DevQuestionsHow2QEUN/0000DevQuestionsHow2QEUN-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		7CABC0041A15870700875E97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 0000DevQuestionsHow2QEUNTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DevQuestionsHow2QEUNTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0000DevQuestionsHow2QEUN.app/0000DevQuestionsHow2QEUN";
-			};
-			name = Debug;
-		};
-		7CABC0051A15870700875E97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = 0000DevQuestionsHow2QEUNTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DevQuestionsHow2QEUNTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0000DevQuestionsHow2QEUN.app/0000DevQuestionsHow2QEUN";
 			};
 			name = Release;
 		};
@@ -442,14 +350,6 @@
 			buildConfigurations = (
 				7CABC0011A15870700875E97 /* Debug */,
 				7CABC0021A15870700875E97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		7CABC0031A15870700875E97 /* Build configuration list for PBXNativeTarget "DevQuestionsHow2QEUNTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7CABC0041A15870700875E97 /* Debug */,
-				7CABC0051A15870700875E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
