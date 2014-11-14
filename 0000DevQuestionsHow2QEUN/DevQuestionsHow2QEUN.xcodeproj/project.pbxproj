@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1AE6511A15D18200C17757 /* CountingChar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1AE6501A15D18200C17757 /* CountingChar.m */; };
 		7CABBFE51A15870600875E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABBFE41A15870600875E97 /* AppDelegate.swift */; };
 		7CABBFE71A15870600875E97 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABBFE61A15870600875E97 /* FirstViewController.swift */; };
 		7CABBFE91A15870600875E97 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CABBFE81A15870600875E97 /* SecondViewController.swift */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1AE64F1A15D18200C17757 /* CountingChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountingChar.h; sourceTree = "<group>"; };
+		7C1AE6501A15D18200C17757 /* CountingChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountingChar.m; sourceTree = "<group>"; };
 		7CABBFDF1A15870600875E97 /* DevQuestionsHow2QEUN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevQuestionsHow2QEUN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CABBFE31A15870600875E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CABBFE41A15870600875E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				7CABC0101A1590D100875E97 /* ImportSwiftClass2OBJC.m */,
 				7CABC0141A15A52800875E97 /* BlockTesting.h */,
 				7CABC0151A15A52800875E97 /* BlockTesting.m */,
+				7C1AE64F1A15D18200C17757 /* CountingChar.h */,
+				7C1AE6501A15D18200C17757 /* CountingChar.m */,
 				7CABC00B1A1587F500875E97 /* 0000DevQuestionsHow2QEUN-Bridging-Header.h */,
 			);
 			name = Questions;
@@ -199,6 +204,7 @@
 				7CABBFE51A15870600875E97 /* AppDelegate.swift in Sources */,
 				7CABC00E1A1587F500875E97 /* Category4Testing.m in Sources */,
 				7CABBFE71A15870600875E97 /* FirstViewController.swift in Sources */,
+				7C1AE6511A15D18200C17757 /* CountingChar.m in Sources */,
 				7CABC0161A15A52800875E97 /* BlockTesting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +358,7 @@
 				7CABC0021A15870700875E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
